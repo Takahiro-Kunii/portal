@@ -23,3 +23,6 @@
 
 
 * [graphics history](https://ohiostate.pressbooks.pub/graphicshistory/)
+
+* boost
+  * [vs2019用のインスト](https://www.pc-gear.com/post/boost-vs2019/)

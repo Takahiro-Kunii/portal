@@ -14,6 +14,8 @@
 </div>
 
 # 導くところ、いずこなりとも行こうではないか
+* [ChatGPT](https://openai.com/blog/chatgpt)
+    * ↑ 「Oculusで異世界に遊ぶアプリを作る」といった漠然とした概念は、ググるより、こっちで質問を投げる方がいい。
 * [UMLのあれこれ](https://github.com/Takahiro-Kunii/UML-tips)
 * [gitの学習](https://github.com/Takahiro-Kunii/study-git)
 * [pythonのあれこれ](https://github.com/Takahiro-Kunii/python-tips)

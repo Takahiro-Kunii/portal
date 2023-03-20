@@ -17,7 +17,7 @@
 * [UMLのあれこれ](https://github.com/Takahiro-Kunii/UML-tips)
 * [gitの学習](https://github.com/Takahiro-Kunii/study-git)
 * [pythonのあれこれ](https://github.com/Takahiro-Kunii/python-tips)
-* [VRの世界へ](https://github.com/Takahiro-Kunii/in-to-vr)
+* [in to liquid](https://github.com/Takahiro-Kunii/in-to-liquid)
   * [Oculus](https://github.com/Takahiro-Kunii/go-oculus-go)
   * [direct-x12](https://github.com/Takahiro-Kunii/direct-x12)
   * [Unityのあれこれ](https://github.com/Takahiro-Kunii/unity-tips)

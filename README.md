@@ -1,6 +1,19 @@
-# portal
-導くところ、いずこなりとも行こうではないか
+<div align="center">
+<br>
+<br>
+<br>
+それを扱える<br>
+知能を<br>
+技量を<br>
+お授けください<br>
+私が欲しいのです<br>
+他の人はどうでもいいです<br>
+<br>
+<br>
+<br>
+</div>
 
+# 導くところ、いずこなりとも行こうではないか
 * [UMLのあれこれ](https://github.com/Takahiro-Kunii/UML-tips)
 * [gitの学習](https://github.com/Takahiro-Kunii/study-git)
 * [pythonのあれこれ](https://github.com/Takahiro-Kunii/python-tips)

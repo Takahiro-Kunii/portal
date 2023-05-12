@@ -23,7 +23,13 @@
   * [Oculus](https://github.com/Takahiro-Kunii/go-oculus-go)
   * [direct-x12](https://github.com/Takahiro-Kunii/direct-x12)
   * [Unityのあれこれ](https://github.com/Takahiro-Kunii/unity-tips)
-  * [blenderのあれこれ](https://github.com/Takahiro-Kunii/blender-tips)
+  * モデリング
+    * [VRoid Studio](https://vroid.com/studio)
+    * [Make Human]([https://vroid.com/studio](http://www.makehumancommunity.org))
+    * [Blenderのあれこれ](https://github.com/Takahiro-Kunii/blender-tips)
+  * 購入
+    * [BOOTH](https://booth.pm/ja)
+    * [Unity Asset Store](https://assetstore.unity.com)
   * [物理の学習](https://github.com/Takahiro-Kunii/study-physics)
     * [布シミュレーション](https://github.com/Takahiro-Kunii/cloth)
   * 手法

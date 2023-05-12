@@ -25,7 +25,7 @@
   * [Unityのあれこれ](https://github.com/Takahiro-Kunii/unity-tips)
   * モデリング
     * [VRoid Studio](https://vroid.com/studio)
-    * [Make Human]([https://vroid.com/studio](http://www.makehumancommunity.org))
+    * [Make Human](http://www.makehumancommunity.org)
     * [Blenderのあれこれ](https://github.com/Takahiro-Kunii/blender-tips)
   * 購入
     * [BOOTH](https://booth.pm/ja)

@@ -1,47 +1,43 @@
 <div align="center">
-<br>
-<br>
-<br>
-それを扱える知能・技量をお授けください<br>
-私が欲しいのです<br>
-他の人はどうでもいいです<br>
+それを扱える知能を技量をお授けください<br>
+私が欲しいのです他の人はどうでもいいです<br>
 <br>
 <br>
 <br>
 </div>
 
-# 導くところ、いずこなりとも行こうではないか
 * [ChatGPT](https://openai.com/blog/chatgpt)
-    * ↑ 「Oculusで異世界に遊ぶアプリを作る」といった漠然とした概念は、ググるより、こっちで質問を投げる方がいい。
-* [UMLのあれこれ](https://github.com/Takahiro-Kunii/UML-tips)
-* [gitの学習](https://github.com/Takahiro-Kunii/study-git)
-* [pythonのあれこれ](https://github.com/Takahiro-Kunii/python-tips)
+    * ググるより、こっちで質問を投げる方がいい。どのみち検証は必要
+* [UML](https://github.com/Takahiro-Kunii/UML-tips)
+* [git](https://github.com/Takahiro-Kunii/study-git)
+* [python](https://github.com/Takahiro-Kunii/python-tips)
 * [in to liquid](https://github.com/Takahiro-Kunii/in-to-liquid)
   * [Oculus](https://github.com/Takahiro-Kunii/go-oculus-go)
   * [direct-x12](https://github.com/Takahiro-Kunii/direct-x12)
-  * [Unityのあれこれ](https://github.com/Takahiro-Kunii/unity-tips)
-  * モデリング
+  * [Unity](https://github.com/Takahiro-Kunii/unity-tips)
+    * [Unity learn](https://unity.com/ja/learn)
+    * [Unity learning Materials](https://learning.unity3d.jp/) 
+  * [Blender](https://github.com/Takahiro-Kunii/blender-tips)
+  * Store
+    * [Poly Haven](https://polyhaven.com/)
+    * [sketchfab](https://sketchfab.com/)
+    * [freesound](https://freesound.org/)
     * [VRoid Studio](https://vroid.com/studio)
     * [Make Human](http://www.makehumancommunity.org)
-    * [Blenderのあれこれ](https://github.com/Takahiro-Kunii/blender-tips)
     * [都市モデル](https://www.mlit.go.jp/plateau/learning/tpc02-1/)
-  * 購入
     * [BOOTH](https://booth.pm/ja)
     * [Unity Asset Store](https://assetstore.unity.com)
-  * [物理の学習](https://github.com/Takahiro-Kunii/study-physics)
+  * [Physics](https://github.com/Takahiro-Kunii/study-physics)
     * [布シミュレーション](https://github.com/Takahiro-Kunii/cloth)
   * 手法
     * [potential法](https://github.com/Takahiro-Kunii/potential)
     * [マーチングキューブス法](https://github.com/Takahiro-Kunii/marching-cubes)
-* [UXについて](https://github.com/Takahiro-Kunii/ux-tips)
+* [UX](https://github.com/Takahiro-Kunii/ux-tips)
 * [DBPedia](https://github.com/Takahiro-Kunii/DBPedia)
 * iOS
   * [カメラ](https://github.com/Takahiro-Kunii/LiveVision)
   * [テキスト](https://github.com/Takahiro-Kunii/TextToPath)
   * [AES](https://github.com/Takahiro-Kunii/AES)
-
-
 * [graphics history](https://ohiostate.pressbooks.pub/graphicshistory/)
-
 * boost
   * [vs2019用のインスト](https://www.pc-gear.com/post/boost-vs2019/)

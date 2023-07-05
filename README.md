@@ -16,7 +16,8 @@
   * [direct-x12](https://github.com/Takahiro-Kunii/direct-x12)
   * [Unity](https://github.com/Takahiro-Kunii/unity-tips)
     * [Unity learn](https://unity.com/ja/learn)
-    * [Unity learning Materials](https://learning.unity3d.jp/) 
+    * [Unity learning Materials](https://learning.unity3d.jp/)
+       * [URPで進化するゲームグラフィック#1：URPとサンプルプロジェクト | Unite Now 2020](https://learning.unity3d.jp/5560/)
   * [Blender](https://github.com/Takahiro-Kunii/blender-tips)
   * Store
     * [Poly Haven](https://polyhaven.com/)

@@ -17,7 +17,8 @@
   * [Unity](https://github.com/Takahiro-Kunii/unity-tips)
     * [Unity learn](https://unity.com/ja/learn)
     * [Unity learning Materials](https://learning.unity3d.jp/)
-       * [URPで進化するゲームグラフィック#1：URPとサンプルプロジェクト | Unite Now 2020](https://learning.unity3d.jp/5560/)
+       * [URPとサンプルプロジェクト:2020](https://learning.unity3d.jp/5560/)
+          * 水面やコースティックなど [ブログ](https://blog.unity.com/technology/achieve-beautiful-scalable-and-performant-graphics-with-the-universal-render-pipeline)
   * [Blender](https://github.com/Takahiro-Kunii/blender-tips)
   * Store
     * [Poly Haven](https://polyhaven.com/)

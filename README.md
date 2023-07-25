@@ -29,6 +29,9 @@
     * [都市モデル](https://www.mlit.go.jp/plateau/learning/tpc02-1/)
     * [BOOTH](https://booth.pm/ja)
     * [Unity Asset Store](https://assetstore.unity.com)
+  * DB
+     * [カーネギーメロン大学のモーションキャプチャDB](http://mocap.cs.cmu.edu/)
+        * CC0だがフォーマットがBlenderで読めない。上記ページにも紹介されているが、Blenderで読めるBVH形式に変換されたものが[cgspeed](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture)で公開されている
   * [Physics](https://github.com/Takahiro-Kunii/study-physics)
     * [布シミュレーション](https://github.com/Takahiro-Kunii/cloth)
   * 手法

@@ -8,6 +8,7 @@
 
 * [基礎線形代数講座](https://techblog.sega.jp/entry/2021/06/15/100000)
     * [PDF](https://drive.google.com/file/d/1vU7BCI1arG_ZyUYkAEvLi1LH1ou0pULu/view)
+* [1年生の数学演習](https://lecture.ecc.u-tokyo.ac.jp/~nkiyono/)
 * Stanfordの深層学習チートシート、日本語版
     * [畳み込みニューラルネットワーク](https://stanford.edu/~shervine/l/ja/teaching/cs-230/cheatsheet-convolutional-neural-networks)
     * [リカレントニューラルネットワーク](https://stanford.edu/~shervine/l/ja/teaching/cs-230/cheatsheet-recurrent-neural-networks)
@@ -15,6 +16,7 @@
     * [意思決定アルゴリズム](https://algorithmsbook.com)
 * [ChatGPT](https://openai.com/blog/chatgpt)
     * ググるより、こっちで質問を投げる方がいい。どのみち検証は必要
+* [Deep Learning入門：マルチタスク学習](https://youtu.be/2R7CurdWmSY?si=Mxq30O1l9pHa6yU7) 
 * [UML](https://github.com/Takahiro-Kunii/UML-tips)
 * [git](https://github.com/Takahiro-Kunii/study-git)
 * [python](https://github.com/Takahiro-Kunii/python-tips)
@@ -48,6 +50,7 @@
     * [potential法](https://github.com/Takahiro-Kunii/potential)
     * [マーチングキューブス法](https://github.com/Takahiro-Kunii/marching-cubes)
 * [UX](https://github.com/Takahiro-Kunii/ux-tips)
+    * [Solarized](https://wired.jp/2019/07/09/very-mathematical-history-perfect-color-combination/) 
 * [DBPedia](https://github.com/Takahiro-Kunii/DBPedia)
 * iOS
   * [iPhoneで始める3Dスキャン生活](https://note.com/iwamah1/n/n5df9a5daaae4)
@@ -58,3 +61,6 @@
 * [graphics history](https://ohiostate.pressbooks.pub/graphicshistory/)
 * boost
   * [vs2019用のインスト](https://www.pc-gear.com/post/boost-vs2019/)
+* AWS
+  * [AWS システム構築 非機能要件ヒアリングシートを公開してみた](https://dev.classmethod.jp/articles/survey-non-functional-requirement/)
+* [Regular Expression Matching with a Trigram Index or How Google Code Search Worked](https://swtch.com/~rsc/regexp/regexp4.html)

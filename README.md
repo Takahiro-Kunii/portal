@@ -6,16 +6,20 @@
 <br>
 </div>
 
+* [基礎線形代数講座](https://techblog.sega.jp/entry/2021/06/15/100000)
+    * [PDF](https://drive.google.com/file/d/1vU7BCI1arG_ZyUYkAEvLi1LH1ou0pULu/view)
 * Stanfordの深層学習チートシート、日本語版
     * [畳み込みニューラルネットワーク](https://stanford.edu/~shervine/l/ja/teaching/cs-230/cheatsheet-convolutional-neural-networks)
     * [リカレントニューラルネットワーク](https://stanford.edu/~shervine/l/ja/teaching/cs-230/cheatsheet-recurrent-neural-networks)
     * [学習のテクニックなど](https://t.co/FDUJsvKOyI)
+    * [意思決定アルゴリズム](https://algorithmsbook.com)
 * [ChatGPT](https://openai.com/blog/chatgpt)
     * ググるより、こっちで質問を投げる方がいい。どのみち検証は必要
 * [UML](https://github.com/Takahiro-Kunii/UML-tips)
 * [git](https://github.com/Takahiro-Kunii/study-git)
 * [python](https://github.com/Takahiro-Kunii/python-tips)
 * [in to liquid](https://github.com/Takahiro-Kunii/in-to-liquid)
+  * [WebGL Water](https://madebyevan.com/webgl-water/)
   * [Oculus](https://github.com/Takahiro-Kunii/go-oculus-go)
   * [direct-x12](https://github.com/Takahiro-Kunii/direct-x12)
   * [Unity](https://github.com/Takahiro-Kunii/unity-tips)
@@ -23,7 +27,9 @@
     * [Unity learning Materials](https://learning.unity3d.jp/)
        * [URPとサンプルプロジェクト:2020](https://learning.unity3d.jp/5560/)
           * 水面やコースティックなど [ブログ](https://blog.unity.com/technology/achieve-beautiful-scalable-and-performant-graphics-with-the-universal-render-pipeline)
+          * [The Unity Shader Bibl](https://80.lv/articles/learn-more-about-shaders-in-unity-with-this-great-e-book/)
   * [Blender](https://github.com/Takahiro-Kunii/blender-tips)
+     * [Let's model A CYBER TANK](https://www.youtube.com/watch?v=WkMJQy2i33k)
   * Store
     * [Poly Haven](https://polyhaven.com/)
     * [sketchfab](https://sketchfab.com/)
@@ -44,6 +50,7 @@
 * [UX](https://github.com/Takahiro-Kunii/ux-tips)
 * [DBPedia](https://github.com/Takahiro-Kunii/DBPedia)
 * iOS
+  * [iPhoneで始める3Dスキャン生活](https://note.com/iwamah1/n/n5df9a5daaae4)
   * [カメラ](https://github.com/Takahiro-Kunii/LiveVision)
   * [テキスト](https://github.com/Takahiro-Kunii/TextToPath)
   * [AES](https://github.com/Takahiro-Kunii/AES)

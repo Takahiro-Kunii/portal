@@ -6,6 +6,10 @@
 <br>
 </div>
 
+* Stanfordの深層学習チートシート、日本語版
+    * [畳み込みニューラルネットワーク](https://stanford.edu/~shervine/l/ja/teaching/cs-230/cheatsheet-convolutional-neural-networks)
+    * [リカレントニューラルネットワーク](https://stanford.edu/~shervine/l/ja/teaching/cs-230/cheatsheet-recurrent-neural-networks)
+    * [学習のテクニックなど](https://t.co/FDUJsvKOyI)
 * [ChatGPT](https://openai.com/blog/chatgpt)
     * ググるより、こっちで質問を投げる方がいい。どのみち検証は必要
 * [UML](https://github.com/Takahiro-Kunii/UML-tips)

@@ -27,6 +27,8 @@
   * [Unity](https://github.com/Takahiro-Kunii/unity-tips)
     * [Unity learn](https://unity.com/ja/learn)
     * [Unity learning Materials](https://learning.unity3d.jp/)
+       * [物理シミュレーション完全マスター](https://learning.unity3d.jp/1167/) 
+          * [プロが教える立つ初心者スクリプト術](https://www.youtube.com/watch?v=FqjM9oujyNE) 
        * [URPとサンプルプロジェクト:2020](https://learning.unity3d.jp/5560/)
           * 水面やコースティックなど [ブログ](https://blog.unity.com/technology/achieve-beautiful-scalable-and-performant-graphics-with-the-universal-render-pipeline)
           * [The Unity Shader Bibl](https://80.lv/articles/learn-more-about-shaders-in-unity-with-this-great-e-book/)

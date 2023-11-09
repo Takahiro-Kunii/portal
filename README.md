@@ -60,7 +60,7 @@
   * [テキスト](https://github.com/Takahiro-Kunii/TextToPath)
   * [AES](https://github.com/Takahiro-Kunii/AES)
   * [credentials.plistを使い、APIキーなどのハードコードを避ける方法](https://qiita.com/codelynx/items/c28bfb434e90800f7ac8)
-* [Android](Android)
+* [Android](android.md)
 * [graphics history](https://ohiostate.pressbooks.pub/graphicshistory/)
 * boost
   * [vs2019用のインスト](https://www.pc-gear.com/post/boost-vs2019/)

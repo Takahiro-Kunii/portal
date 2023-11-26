@@ -60,9 +60,10 @@ ViewModelの場合
 
 ## ReactiveProperty （ヘルパーライブラリ）
 データバインディングに利用する。
-NuGetでインストールする。reactivepropertyという名前のパッケージ。reactiveproperty.WPFでもよい？
+NuGetでインストールする。reactivepropertyという名前のパッケージ。
 
-###
+### ReactiveProperty
+必要最小限機能でパフォーマンスを上げたReactivePropertySlimもある。
 int型のプロパティをバインドする場合
 ```
 ReactiveProperty<int> rp {get} = new(0);
@@ -87,17 +88,114 @@ this.rp = model.rp.ToReactivePropertyAsSynchronized(x => x.Value);
 public class ViewModel : BindableBase, IDestructible
 {
         private CompositeDisposable disposables = new CompositeDisposable();
+        ReactiveProperty<int> rp {get}
         ViewModel(Model model)
         {
-                this.rp = model.rp.ToReactivePropertyAsSynchronized(x => x.Value).AddTo(disposables);
+                rp = model.rp.ToReactivePropertyAsSynchronized(x => x.Value).AddTo(disposables);
         ・・・
 
         public void Destroy()
             => this.disposables.Dispose();
 }
 ```
+### ReactiveCommand
+必要最小限機能でパフォーマンスを上げたReactiveCommandSlimもある。
+```
+public ReactiveCommand cmd { get; }
 
+ViewModel()
+{
+            cmd = new ReactiveCommand().WithSubscribe(() => {...}).AddTo(disposables);
+```
+ICommandのCanExecute への対応は IObservable<bool> から
+```
+CompositeDisposable disposables = new CompositeDisposable();
+ReactiveProperty<int?> Id {get}
+ReactivePropertySlim<bool> hasId;
+public ReactiveCommand cmd { get; }
+public ReactiveProperty<string> NowDateTime { get; }
 
+ViewModel(Model model)
+{
+hasId = new ReactiveProperty<bool>(false).AddTo(this.disposables);
+Id = model.Id.ToReactivePropertyAsSynchronized(x => x.Value).WithSubscribe(v => hasId.Value = v.HasValue).AddTo(this.disposables);
+NowDateTime = new ReactiveProperty<string>().AddTo(this.disposables);
+cmd = hasId.ToReactiveCommand().WithSubscribe(() => {
+NowDateTime.Value = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
+}).AddTo(this.disposables);
+```
+とする。
+ReactiveCommand は IObservable<bool> も継承しているので、次のような連携もできる。
+この場合、cmdが実行されるたびにValueが更新されるReactivePropertyが作成される。
+```
+public ReactiveCommand cmd { get; }
+public ReactiveProperty<string> NowDateTime { get; }
+・・・
+cmd = new ReactiveCommand().AddTo(this.disposables);
+NowDateTime = cmd.Select(_ => DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")).ToReactiveProperty().AddTo(disposables);
+```
+### CommandParameter
+同じReactiveCommandをXAMLで複数のButtonとバンドする場合、CommandParameterを使い、ボタンを識別するためのパラメータを送ることができる。
+ ```
+ <Button Command="{Binding PastTimeClick}" CommandParameter="10"/>
+ ```
+これでstringを受け取ることができる。
+```
+public ReactiveCommand<string> cmd { get; }
+...
+cmd = new ReactiveCommand<string>().WithSubscribe((s) => {
+                ...
+            });
+}).AddTo(this.disposables);
+```
+### AsyncReactiveCommand 
+ReactiveCommandではボタンの２度押しなどの対応が面倒。
+代わりにAsyncReactiveCommand を使う。
+本来の目的は非同期処理が終わるまで待つというものだが、
+```
+            cmd = new AsyncReactiveCommand().WithSubscribe(() => {
+Task.Run(() =>
+            {
+                ...
+            });
+}).AddTo(this.disposables);
+```
+## ReactiveProperty.WPF （ヘルパーライブラリ）
+データバインディングに利用する。
+NuGetでインストールする。reactiveproperty.WPF。
+
+### 画面LoadといったイベントをCommandで受け取る
+EventToReactiveCommandで変換。
+```
+    <bh:Interaction.Triggers>
+        <bh:EventTrigger EventName="Loaded">
+            <rp:EventToReactiveCommand Command="{Binding ViewLoaded}" />
+        </bh:EventTrigger>
+    </bh:Interaction.Triggers>
+```
+EventArgs も取得するならXAMLで
+```
+        <bh:EventTrigger EventName="MouseMove">
+            <rp:EventToReactiveProperty ReactiveProperty="{Binding MousePoint}" />
+            <rp:EventToReactiveCommand Command="{Binding MouseMove}" />
+        </bh:EventTrigger>
+```
+ViewModelで
+```
+        public ReactiveCommand<MouseEventArgs> MouseMove { get; }
+public ReactivePropertySlim<string> CurrentMousePoint { get; }
+・・・
+CurrentMousePoint = new ReactivePropertySlim<string>(string.Empty).AddTo(this.disposables);
+MouseMove = new ReactiveCommand<MouseEventArgs>()
+                .WithSubscribe(args =>
+{
+ var pos = args.GetPosition(null);
+            this.CurrentMousePoint.Value = $"(X: {pos.X} Y: {pos.Y})";
+        }
+}
+)
+                .AddTo(this.disposables);
+                ```
 ## Xaml.Behaviors.Wpf（ヘルパーライブラリ）
 Interaction.Triggersを使いたい場合、NuGetでインストールする。Xaml.Behaviors.Wpfという名前のパッケージ。
 

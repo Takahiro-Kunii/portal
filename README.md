@@ -54,6 +54,12 @@
 * [UX](https://github.com/Takahiro-Kunii/ux-tips)
     * [Solarized](https://wired.jp/2019/07/09/very-mathematical-history-perfect-color-combination/) 
 * [DBPedia](https://github.com/Takahiro-Kunii/DBPedia)
+* Node.js
+  * [MacにNode.jsをインストール](https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09)
+  * Prismによるサーバー立ち上げ
+* Docker
+  * linux環境を作らずに、linuxのアプリを実行させたい
+  * [Docker.docs](https://matsuand.github.io/docs.docker.jp.onthefly/)
 * Windows
   * [WPF](WPF.md) 
 * iOS
@@ -63,6 +69,10 @@
   * [AES](https://github.com/Takahiro-Kunii/AES)
   * [credentials.plistを使い、APIキーなどのハードコードを避ける方法](https://qiita.com/codelynx/items/c28bfb434e90800f7ac8)
 * [Android](/android.md)
+* REST
+  * APIを用意しNode.jsなどでサーバを立ち上げる
+  *　クライアントとしてcURLやPostmanを使う
+  　　　* [Postman](https://www.postman.com/)
 * [graphics history](https://ohiostate.pressbooks.pub/graphicshistory/)
 * boost
   * [vs2019用のインスト](https://www.pc-gear.com/post/boost-vs2019/)

@@ -19,6 +19,7 @@
 * [Deep Learning入門：マルチタスク学習](https://youtu.be/2R7CurdWmSY?si=Mxq30O1l9pHa6yU7) 
 * [UML](https://github.com/Takahiro-Kunii/UML-tips)
 * [git](https://github.com/Takahiro-Kunii/study-git)
+* [JAVA](https://github.com/Takahiro-Kunii/study-JAVA)
 * [python](https://github.com/Takahiro-Kunii/python-tips)
 * [in to liquid](https://github.com/Takahiro-Kunii/in-to-liquid)
   * [WebGL Water](https://madebyevan.com/webgl-water/)

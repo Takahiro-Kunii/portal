@@ -2,6 +2,9 @@
 それを扱える知能を技量をお授けください<br>
 私が欲しいのです他の人はどうでもいいです<br>
 <br>
+You can't get what you want.<br>
+Till you know what you want.<br>
+<br>
 <br>
 <br>
 </div>

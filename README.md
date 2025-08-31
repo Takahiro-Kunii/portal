@@ -88,7 +88,10 @@ Till you know what you want.<br>
 * AWS
   * [AWS システム構築 非機能要件ヒアリングシートを公開してみた](https://dev.classmethod.jp/articles/survey-non-functional-requirement/)
 * [Regular Expression Matching with a Trigram Index or How Google Code Search Worked](https://swtch.com/~rsc/regexp/regexp4.html)
-
+* OpenAI
+  * [OpenAI](https://openai.com)
+  * [ChatGPT](https://chatgpt.com)
+  * [wisper:音声からの文字おこし](https://github.com/openai/whisper)
 ### C#キー記入順慣例
 ```
 [public protected private] 

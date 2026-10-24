@@ -86,6 +86,7 @@
 * AWS
   * 自分のグローバルIPを知る：`curl https://checkip.amazonaws.com`
   * [AWS システム構築 非機能要件ヒアリングシートを公開してみた](https://dev.classmethod.jp/articles/survey-non-functional-requirement/)
+* [Heroku](https://github.com/Takahiro-Kunii/heroku)
 * [Regular Expression Matching with a Trigram Index or How Google Code Search Worked](https://swtch.com/~rsc/regexp/regexp4.html)
 * OpenAI
   * [OpenAI](https://openai.com)
